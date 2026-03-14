@@ -1,0 +1,58 @@
+.candidate-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+}
+
+.candidate-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.status-badge {
+    padding: 0.35rem 0.65rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.status-reviewed {
+    background-color: #f1f5f9;
+    color: #475569;
+}
+
+.status-interview {
+    background-color: #e0f2fe;
+    color: #0284c7;
+}
+
+.status-offered {
+    background-color: #dcfce7;
+    color: #16a34a;
+}
+
+.job-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #f1f5f9;
+    transition: background 0.2s;
+}
+
+.job-list-item:hover {
+    background-color: #f8fafc;
+}
+
+.job-list-item:last-child {
+    border-bottom: none;
+}
+
+.candidate-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}

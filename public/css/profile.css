@@ -1,0 +1,26 @@
+.profile-header-bg {
+    height: 120px;
+    background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+}
+
+.profile-avatar-wrap {
+    margin-top: -60px;
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    background: white;
+}
+
+.profile-skills-title {
+    letter-spacing: 0.05em;
+}
+
+.profile-tab-link.active {
+    border-bottom: 3px solid var(--primary-color) !important;
+}
+
+.line-height-lg {
+    line-height: 1.8;
+}

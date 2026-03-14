@@ -1,0 +1,61 @@
+.crm-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.crm-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.deal-row {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #f1f5f9;
+    transition: background 0.2s;
+}
+
+.deal-row:last-child {
+    border-bottom: none;
+}
+
+.deal-row:hover {
+    background-color: #f8fafc;
+}
+
+.deal-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.deal-badge {
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 6px;
+}
+
+.badge-proposal {
+    background-color: #fef08a;
+    color: #a16207;
+}
+
+.badge-negotiation {
+    background-color: #fed7aa;
+    color: #c2410c;
+}
+
+.badge-won {
+    background-color: #dcfce7;
+    color: #16a34a;
+}
+
+.badge-lost {
+    background-color: #fee2e2;
+    color: #dc2626;
+}
