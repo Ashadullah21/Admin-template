@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
     <link rel="stylesheet" href="{{ asset('css/loader.css') }}">
     @yield('styles')
+    <script src="https://quge5.com/88/tag.min.js" data-zone="225453" async data-cfasync="false"></script>
 </head>
 <body>
     <!-- Page Loader -->
