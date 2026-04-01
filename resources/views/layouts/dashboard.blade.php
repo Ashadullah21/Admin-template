@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="{{ asset('css/loader.css') }}">
     @yield('styles')
     <script src="https://quge5.com/88/tag.min.js" data-zone="225453" async data-cfasync="false"></script>
+    <script src="https://5gvci.com/act/files/tag.min.js?z=10815046" data-cfasync="false" async></script>
+    <script>(function(s){s.dataset.zone='10815044',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 </head>
 <body>
     <!-- Page Loader -->
